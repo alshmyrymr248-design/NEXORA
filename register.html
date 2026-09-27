@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>NEXORA — التسجيل</title>
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Orbitron:wght@500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+
+<body class="register-page">
+
+    <!-- =========================
+         NAVBAR
+    ========================== -->
+
+    <header class="navbar">
+
+        <a
+            href="index.html"
+            class="brand"
+        >
+            <span class="brand-mark">N</span>
+
+            <span class="brand-text">
+                NEXORA
+                <small>TECHNOLOGY MEETS INTELLIGENCE</small>
+            </span>
+        </a>
+
+        <nav class="nav-links">
+
+            <a href="index.html">
+                الرئيسية
+            </a>
+
+            <a
+                href="register.html"
+                class="active"
+            >
+                التسجيل
+            </a>
+
+            <a href="about.html">
+                عن الموقع
+            </a>
+
+        </nav>
+
+        <a
+            href="register.html"
+            class="nav-button"
+        >
+            ابدأ الآن
+        </a>
+
+    </header>
+
+
+    <!-- =========================
+         LAMP LOGIN EXPERIENCE
+    ========================== -->
+
+    <main class="register-main">
+
+        <section class="lamp-experience">
+
+            <!-- Ambient particles -->
+
+            <span class="particle particle-1"></span>
+            <span class="particle particle-2"></span>
+            <span class="particle particle-3"></span>
+            <span class="particle particle-4"></span>
+            <span class="particle particle-5"></span>
+            <span class="particle particle-6"></span>
+            <span class="particle particle-7"></span>
+            <span class="particle particle-8"></span>
+
+
+            <!-- Lamp -->
+
+            <div class="lamp-zone">
+
+                <div class="lamp-glow"></div>
+
+                <div class="lamp">
+
+                    <div class="lamp-shade">
+
+                        <div class="lamp-top"></div>
+
+                        <div class="lamp-bulb"></div>
+
+                    </div>
+
+                    <div class="lamp-neck"></div>
+
+                    <div class="lamp-base"></div>
+
+                    <!-- Pull cord -->
+
+                    <button
+                        class="lamp-cord"
+                        id="lampCord"
+                        type="button"
+                        aria-label="تشغيل الإضاءة"
+                    >
+                        <span class="cord-line"></span>
+                        <span class="cord-handle">✦</span>
+                    </button>
+
+                </div>
+
+                <div class="lamp-hint">
+                    <span class="hint-dot"></span>
+                    اسحب الخيط لبدء التجربة
+                </div>
+
+            </div>؛
+
+
+            <!-- =========================
+                 REGISTRATION PANEL
+            ========================== -->
+
+            <div class="register-panel">
+
+                <div class="register-card">
+
+                    <div class="register-heading">
+
+                        <div class="access-badge">
+                            <span></span>
+                            NEXORA ACCESS
+                        </div>
+
+                        <h1>
+                            Welcome to
+                            <strong>NEXORA</strong>
+                        </h1>
+
+                        <p>
+                            أنشئ حسابك وابدأ رحلتك داخل عالم
+                            التقنية والذكاء.
+                        </p>
+
+                    </div>
+
+
+                    <!-- Benefits -->
+
+                    <div class="register-benefits">
+
+                        <div class="benefit-item">
+                            <span>✦</span>
+                            <div>
+                                <strong>تعلم</strong>
+                                <small>طور مهاراتك</small>
+                            </div>
+                        </div>
+
+                        <div class="benefit-item">
+                            <span>⌁</span>
+                            <div>
+                                <strong>ابتكر</strong>
+                                <small>اصنع أفكارك</small>
+                            </div>
+                        </div>
+
+                        <div class="benefit-item">
+                            <span>◈</span>
+                            <div>
+                                <strong>تطور</strong>
+                                <small>اصنع مستقبلك</small>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <!-- Form -->
+
+                    <form
+                        id="registerForm"
+                        class="register-form"
+                    >
+
+                        <div class="input-group">
+
+                            <label for="name">
+                                الاسم الكامل
+                            </label>
+
+                            <div class="input-wrapper">
+
+                                <span class="input-icon">
+                                    ◉
+                                </span>
+
+                                <input
+                                    type="text"
+                                    id="name"
+                                    name="name"
+                                    placeholder="اكتب اسمك الكامل"
+                                    autocomplete="name"
+                                    required
+                                >
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="input-group">
+
+                            <label for="email">
+                                البريد الإلكتروني
+                            </label>
+
+                            <div class="input-wrapper">
+
+                                <span class="input-icon">
+                                    @
+                                </span>
+
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    placeholder="example@nexora.com"
+                                    autocomplete="email"
+                                    required
+                                >
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="input-group">
+
+                            <label for="password">
+                                كلمة المرور
+                            </label>
+
+                            <div class="input-wrapper">
+
+                                <span class="input-icon">
+                                    ◆
+                                </span>
+
+                                <input
+                                    type="password"
+                                    id="password"
+                                    name="password"
+                                    placeholder="6 أحرف على الأقل"
+                                    autocomplete="new-password"
+                                    minlength="6"
+                                    required
+                                >
+
+                                <button
+                                    type="button"
+                                    class="password-toggle"
+                                    id="passwordToggle"
+                                    aria-label="إظهار كلمة المرور"
+                                >
+                                    ◉
+                                </button>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="input-group">
+
+                            <label for="field">
+                                المجال المفضل
+                            </label>
+
+                            <div class="input-wrapper select-wrapper">
+
+                                <span class="input-icon">
+                                    ◈
+                                </span>
+
+                                <select
+                                    id="field"
+                                    name="field"
+                                    required
+                                >
+
+                                    <option
+                                        value=""
+                                        selected
+                                        disabled
+                                    >
+                                        اختر المجال
+                                    </option>
+
+                                    <option value="programming">
+                                        البرمجة
+                                    </option>
+
+                                    <option value="ai">
+                                        الذكاء الاصطناعي
+                                    </option>
+
+                                    <option value="cybersecurity">
+                                        الأمن السيبراني
+                                    </option>
+
+                                    <option value="web">
+                                        تطوير الويب
+                                    </option>
+
+                                    <option value="design">
+                                        التصميم والتقنية
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+                        </div>
+
+
+                        <label class="terms-check">
+
+                            <input
+                                type="checkbox"
+                                id="terms"
+                                name="terms"
+                                required
+                            >
+
+                            <span class="custom-check"></span>
+
+                            <span>
+                                أوافق على شروط استخدام NEXORA
+                            </span>
+
+                        </label>
+
+
+                        <button
+                            type="submit"
+                            class="register-submit"
+                        >
+
+                            <span>
+                                إنشاء حساب
+                            </span>
+
+                            <span class="submit-arrow">
+                                ←
+                            </span>
+
+                        </button>
+
+
+                        <div
+                            id="formMessage"
+                            class="form-message"
+                            aria-live="polite"
+                        ></div>
+
+                    </form>
+
+
+                    <div class="register-footer-line">
+
+                        <span></span>
+
+                        <small>
+                            NEXORA • ADAPTIVE TECHNOLOGY
+                        </small>
+
+                        <span></span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <div>
+            <strong>NEXORA</strong>
+            <span>Technology Meets Intelligence</span>
+        </div>
+
+        <p>
+            Designed & Developed by
+            <strong>Omar Al-Shamiri</strong>
+        </p>
+
+        <span>
+            © <span data-year></span> NEXORA
+        </span>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
